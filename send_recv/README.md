@@ -10,6 +10,13 @@ Para executá-lo, digite no terminal:
 
 onde "X" é o número de processos que serão utilizados.
 
+Outra opção para rodar o programa é por meio do script run.sh.
+O autor costuma rodar o script da seguinte forma:
+
+> nohup ./run.sh &
+
+Assim os tempos serão salvos em um arquivo nohup.out e o terminal não fica travado.
+
 No arquivo ./lib/multimatriz.h encontram-se 2 defines.
 O primeiro habilita a execução em paralelo com MPI e o segundo a impressão na tela das matrizes e do resultado obtido.
 Caso queira rodar o programa em serial, comente a linha #define MPI.
