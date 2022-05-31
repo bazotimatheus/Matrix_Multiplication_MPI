@@ -1,0 +1,7 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/mb/Documentos/hpc2/Trabalhos/mpi/multM/scatter_gather'
+mpicc -c -o obj/multmatriz.o src/multmatriz.c  
+mpicc -c -o obj/main.o src/main.c  
+mpicc -o multmatriz obj/multmatriz.o obj/main.o  
+make: Leaving directory '/home/mb/Documentos/hpc2/Trabalhos/mpi/multM/scatter_gather'
+ 

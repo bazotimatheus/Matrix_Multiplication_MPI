@@ -1,0 +1,7 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/mb/Documentos/hpc2/Trabalhos/mpi/multM/send_recv'
+make: Leaving directory '/home/mb/Documentos/hpc2/Trabalhos/mpi/multM/send_recv'
+ 
+make: *** No rule to make target 'obj/multmatriz.o', needed by 'multmatriz'.
+make: *** No rule to make target 'obj/main.o', needed by 'multmatriz'.
+
